@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffb73d"
+            android:layout_weight="1.0"
+            android:text="@string/B1"
+            android:contentDescription="@string/B1"
+            android:onClick="onClick1"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5aff50"
+            android:layout_weight="1.0"
+            android:text="@string/B2"
+            android:contentDescription="@string/B2"
+            android:onClick="onClick2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:orientation="horizontal"
+        android:contentDescription="@string/Question"
+        android:background="@android:color/white"
+        android:id="@+id/questionBox">
+    <TextView android:id="@+id/questionText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/Question"
+        android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#49caff"
+            android:layout_weight="1.0"
+            android:text="@string/B3"
+            android:contentDescription="@string/B3"
+            android:onClick="onClick3"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff5056"
+            android:layout_weight="1.0"
+            android:text="@string/B4"
+            android:contentDescription="@string/B4"
+
+            android:onClick="onClick4"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    <!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:background="@drawable/background">-->
+
+    <!--&lt;!&ndash;<EditText android:id="@+id/edit_message"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:hint="@string/edit_message"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--android:text="@string/button_send"-->
+    <!--android:onClick="sendMessage"/>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageButton1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:src="@drawable/b2003"-->
+    <!--android:contentDescription="@string/b2003"-->
+    <!--android:onClick="onClick2003"/>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageButton2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageButton1"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/b2004"-->
+    <!--android:contentDescription="@string/b2004"-->
+    <!--android:onClick="onClick2004"/>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageButton3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageButton2"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/b2005"-->
+    <!--android:contentDescription="@string/b2005"-->
+    <!--android:onClick="onClick2005"/>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageButton4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageButton3"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/b2006"-->
+    <!--android:contentDescription="@string/b2006"-->
+    <!--android:onClick="onClick2006"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginLeft="26dp"-->
+    <!--android:paddingBottom="5dp"-->
+    <!--android:text="@string/Version"-->
+    <!--style="@style/VersionFont" />-->
+    <!--</RelativeLayout>-->
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/background" >-->
+    <!---->
+<!--</LinearLayout>-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:background="@drawable/background" >-->
+
+<!--<ImageButton-->
+    <!--android:id="@+id/imageButton1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/b2003"-->
+    <!--android:contentDescription="@string/b2003"-->
+    <!--android:onClick="onClick2003"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true" />-->
+
+<!--<ImageButton-->
+    <!--android:id="@+id/imageButton2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageButton1"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/b2004"-->
+    <!--android:contentDescription="@string/b2004"/>-->
+
+<!--<ImageButton-->
+    <!--android:id="@+id/imageButton3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageButton2"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/b2005"-->
+    <!--android:contentDescription="@string/b2005"/>-->
+
+<!--<ImageButton-->
+    <!--android:id="@+id/imageButton4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageButton3"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/b2006"-->
+    <!--android:contentDescription="@string/b2006"/>-->
+
+<!--</RelativeLayout>-->

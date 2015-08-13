@@ -1,0 +1,30 @@
+<resources>
+    <string name="Question">getQuestion</string>
+    <string name="B1">Button 1</string>
+    <string name="B2">Button 2</string>
+    <string name="B3">Button 3</string>
+    <string name="B4">Button 4</string>
+    <string name="timeLeft">Countdown timer goes here</string>
+
+
+    <string name="Diff1">Difficulty 1 Collect like terms by adding coefficients </string>
+    <string name="Diff2">Difficulty 2 Collect like terms by adding and subtracting coefficients </string>
+    <string name="Diff3">Difficulty 3 Collect like terms </string>
+    <string name="Diff4">Difficulty 4 Solve one step equations </string>
+    <string name="Diff5">Difficulty 5 Solve two step equations </string>
+    <string name="Diff6">Difficulty 6 Solve equations with unknowns on both sides </string>
+    <string name="Diff7">Difficulty 7 Solve equations with brackets </string>
+    <string name="Diff8">Difficulty 8 Solve equations with two sets of brackets </string>
+    <string name="Diff9">Difficulty 9</string>
+
+    <string name="app_name">Project</string>
+    <string name="b2003">Answer 2003</string>
+    <string name="b2004">Answer 2004</string>
+    <string name="b2005">Answer 2005</string>
+    <string name="b2006">Answer 2006</string>
+    <string name="Version">Version 1.0</string>
+
+    <string name="Score">Your Score Goes here</string>
+    <string name="HighScore">You got the high score!</string>
+
+</resources>
